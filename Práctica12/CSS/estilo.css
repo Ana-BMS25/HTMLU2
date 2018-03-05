@@ -1,0 +1,38 @@
+.Contenedor{
+  border: 2px solid red;
+  padding: 20px;
+  margin:60px;
+}
+
+.CajaBase{
+text-align: center;
+border: 2px solid blue;
+width: 270px;
+height:400px;
+display: inline-block;
+}
+
+#caja1{
+float: left;
+background-image: url(../imagen/mm.png);
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-position: bottom left;
+}
+
+#caja2{
+margin-left: 180px;
+margin-top: 0px;
+background-image: url(../imagen/mm.png);
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-position:top right;
+}
+
+#caja3{
+float: right;
+background-image: url(../imagen/mm.png);
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-position: center;
+}

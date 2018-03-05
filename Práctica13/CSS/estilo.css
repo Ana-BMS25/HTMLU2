@@ -1,0 +1,48 @@
+.Contenedor{
+  border: 2px solid red;
+  padding: 20px;
+  margin:60px;
+}
+
+.CajaBase{
+text-align: center;
+border: 2px solid blue;
+width: 270px;
+height:400px;
+display: inline-block;
+-moz-border-radius: 20px / 10px;   /*tienen la rayita asi - porque son palabras reservdas para distintos navegadores*/
+-webkit-border-radius: 20px / 10px;
+border-radius: 20px / 10px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow:rgb(150,150,150) 5px 5px;
+box-shadow: rgb(150,150,150) 5px 5px;
+background-image: url(../imagen/mm.png);
+}
+
+#caja1{
+float: left;
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-position: bottom left;
+background-color: rgba(250,128,114,0.5);
+color:
+}
+
+#caja2{
+margin-left: 180px;
+margin-top: 0px;
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-position:top right;
+background-color: rgba(00,205,170,0.5);
+color: rgb(188,143,143);
+}
+
+#caja3{
+float: right;
+background-size: 100px 100px;
+background-repeat: no-repeat;
+background-position: center;
+background-color: rgba(154,205,50,0.5);
+color: rgb(165,42,42);
+}
